@@ -110,5 +110,32 @@ transition: 0.2s;
 
 
 }
+.headers:hover{
+transform: scale(1.1);
+transition: 1s all;
+
+}
+nav{
+  font-size: 24px;
+  display: flex;
+  gap:20px;
+}
+.sider{
+  position: relative;
+  top: 300px;
+  left : 200px;
+  background-color: whitesmoke;
+  height:min-content;
+  width: 300px;
+  margin-left: 20px;
+  align-items: center;
+  text-align: center;
 
 
+}
+.ratings{
+  background-color: rgb(230, 227, 227);
+}
+.distance{
+  background-color: rgb(223, 219, 219);
+}
