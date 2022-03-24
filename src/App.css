@@ -1,7 +1,8 @@
 .App {
 
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
+
   }
   .chart{
     width:720px;     
@@ -122,8 +123,9 @@ nav{
 }
 .sider{
   position: relative;
-  top: 300px;
-  left : 200px;
+  bottom: 240px;
+  
+  left : 800px;
   background-color: whitesmoke;
   height:min-content;
   width: 300px;
@@ -138,4 +140,48 @@ nav{
 }
 .distance{
   background-color: rgb(223, 219, 219);
+}
+.nav{
+font-size:  8px; 
+}
+.ashirwad1{
+  /* align-items: center;
+  text-align: center;
+  justify-content: center; */
+  margin: 150px;
+  margin-right: 200px;
+  margin-left: 200px;
+  background-color: antiquewhite;
+  position: fixed;
+}
+.not-found-1{
+  height: 400px;
+  margin-right: 600px;
+}
+.comp{
+  position: relative;
+  top:300px;
+  right: 200px;
+  left: 10px;
+  bottom: 200px;
+
+  background-color: burlywood;
+
+}
+.tg{
+  position: relative;
+  top:300px;
+  right: 200px;
+  left: 20px;
+  bottom: 200px;
+  background-color:cornflowerblue;
+}
+.media{
+  position: relative;
+  top:300px;
+  right: 200px;
+  left: 20px;
+  bottom: 200px;
+  background-color:darkgrey
+
 }
